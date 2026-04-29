@@ -308,4 +308,6 @@ pyrightconfig.json
 ### VisualStudioCode ###
 .vscode/
 
-# End of https://www.toptal.com/developers/gitignore/api/python,linux,pycharm
+# End of https://www.toptal.com/developers/gitignore/api/python,linux,pycharm.python-version
+.vscode/
+.python-version
