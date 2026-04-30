@@ -31,7 +31,7 @@ Algoritmos: K-Means e Affinity Propagation
 Métricas de performance: Silhouette Score
 
 ## 3.3 Ferramentas utilizadas:
-Python 3.8 e Scikit-learn
+Python 3.14.2 e Scikit-learn
 
 # 4. Desenvolvimento
 ## 4.1 Estratégia da solução
