@@ -64,30 +64,31 @@ Todos os algoritmo de regressão não apresentaram boas métricas de performance
 
 ## **Ensaio de Classificação:**
 ## 6.1 Sobre os dados de treinamento
-|Nome_do_algoritmo |Acurácia| Precision| Recall| F1_score|
+|          Algoritmo| Acurácia |Precision| Recall| F1_score|
 |:----|:----|:----|:----|:----|
-|KNN  |  0.782    | 0.756 | 0.733 |   0.744|
-|Decision Tree  |  1.000   |  1.000 | 1.000  |  1.000|
-|Random Forest    |1.000    | 1.000|  1.000   | 1.000|
-|Logistic Regression   | 0.873    | 0.861|  0.842   | 0.851|
+|                KNN    |0.782     |0.756 | 0.733   | 0.744|
+|      Decision Tree  |  1.000     |1.000|  1.000   | 1.000|
+|      Random Forest  |  1.000    | 1.000 | 1.000   | 1.000|
+|Logistic Regression   | 0.876|     0.872 | 0.837 |   0.854|
+
 
 ## 6.2 Sobre os dados de validação
-|Nome_do_algoritmo |Acurácia |Precision| Recall| F1_score|
+|          Algoritmo |Acurácia| Precision| Recall| F1_score|
 |:----|:----|:----|:----|:----|
-|                  KNN    |0.676    | 0.632 | 0.603   | 0.617|
-|        Decision Tree   | 0.946 |    0.936 | 0.939 |   0.937|
-|        Random Forest  |  0.965 |    0.974 | 0.943 |   0.959|
-|  Logistic Regression  |  0.870  |   0.860  |0.836 |   0.848|
+|                KNN    |0.676   |  0.632 | 0.603   | 0.617|
+|      Decision Tree |   0.945 |    0.936 | 0.938 |   0.937|
+|      Random Forest |   0.965 |    0.974 | 0.945 |   0.959|
+|Logistic Regression |   0.875  |   0.870 | 0.836 |   0.853|
+
 
 
 ## 6.3 Sobre os dados de teste
-|Nome_do_algoritmo|Acurácia|Precision|Recall|F1_score|
+|Algoritmo|Acurácia|Precision|Recall|F1_score|
 |:----|:----|:----|:----|:----|
 |KNN|0.699|0.654|0.666|0.660|
-|Decision Tree|0.954|0.954|0.941|0.947|
-|Random Forest|0.964|0.973|0.944|0.958|
-|Logistic Regression|0.871|0.868|0.831|0.849|
-
+|Decision Tree|0.956|0.956|0.944|0.950|
+|Random Forest|0.965|0.974|0.944|0.959|
+|Logistic Regression|0.872|0.869|0.835|0.852|
 
 
 ## **Ensaio de Regressão:**
@@ -101,39 +102,40 @@ Todos os algoritmo de regressão não apresentaram boas métricas de performance
 |Linear Regression Lasso|0.000|0.246|0.331|0.491|0.566|
 |Linear Regression Ridge|0.554|0.110|0.331|0.249|0.267|
 |Linear Regression Elastic Net|0.000|0.246|0.495|0.491|0.566|
-|Polynomial Regression Lasso|0.421|0.142|0.377|0.322|0.357|
-|Polynomial Regression Ridge|0.751|0.061|0.247|0.178|0.210|
-|Polynomial Regression Elastic Net|0.421|0.142|0.377|0.322|0.357|
+|Polynomial Regression Lasso|0.000|0.246|0.496|0.491|0.567|
+|Polynomial Regression Ridge|0.751|0.061|0.247|0.178|0.209|
+|Polynomial Regression Elastic Net|0.000|0.246|0.496|0.491|0.567|
 
 
 ## 6.5 Sobre os dados de validação
 |Nome_do_algoritmo|R2|MSE|RMSE|MAE|MAPE|
 |:----|:----|:----|:----|:----|:----|
 |Linear Regression|0.548|0.111|0.333|0.250|0.270|
-|Decision Tree Regressor|0.777|0.055|0.234|0.055|0.062|
-|Random Forest Regressor|0.886|0.028|0.168|0.059|0.066|
+|Decision Tree Regressor|0.775|0.055|0.235|0.055|0.061|
+|Random Forest Regressor|0.886|0.028|0.168|0.060|0.066|
 |Polynomial Regression|0.708|0.072|0.268|0.192|0.229|
 |Linear Regression Lasso|0.000|0.246|0.495|0.491|0.566|
 |Linear Regression Ridge|0.548|0.111|0.333|0.250|0.270|
 |Linear Regression Elastic Net|0.000|0.246|0.495|0.491|0.566|
-|Polynomial Regression Lasso|0.417|0.143|0.378|0.322|0.358|
-|Polynomial Regression Ridge|0.748|0.062|0.249|0.179|0.211|
-|Polynomial Regression Elastic Net|0.417|0.143|0.378|0.322|0.358|
+|Polynomial Regression Lasso|-0.000|0.246|0.496|0.491|0.567|
+|Polynomial Regression Ridge|0.748|0.062|0.249|0.179|0.210|
+|Polynomial Regression Elastic Net|-0.000|0.246|0.496|0.491|0.567|
 
 
 ## 6.6 Sobre os dados de teste
 |Nome_do_algoritmo|R2|MSE|RMSE|MAE|MAPE|
 |:----|:----|:----|:----|:----|:----|
 |Linear Regression|0.550|0.111|0.333|0.250|0.268|
-|Decision Tree Regressor|0.852|0.036|0.191|0.063|0.071|
-|Random Forest Regressor|0.889|0.027|0.166|0.056|0.062|
+|Decision Tree Regressor|0.852|0.037|0.191|0.063|0.072|
+|Random Forest Regressor|0.888|0.027|0.166|0.056|0.062|
 |Polynomial Regression|0.656|0.085|0.291|0.210|0.245|
 |Linear Regression Lasso|0.515|0.120|0.346|0.278|0.309|
 |Linear Regression Ridge|0.550|0.111|0.333|0.250|0.268|
 |Linear Regression Elastic Net|0.549|0.111|0.333|0.251|0.269|
-|Polynomial Regression Lasso|0.717|0.070|0.264|0.191|0.233|
+|Polynomial Regression Lasso|0.747|0.062|0.249|0.179|0.213|
 |Polynomial Regression Ridge|0.749|0.062|0.249|0.179|0.210|
 |Polynomial Regression Elastic Net|0.749|0.062|0.249|0.179|0.210|
+
 
 ## **Ensaio de Clusterização:**
 ## 6.7 Sobre os dados de treinamento
